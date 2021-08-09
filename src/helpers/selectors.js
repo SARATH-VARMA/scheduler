@@ -13,6 +13,15 @@ export function getAppointmentsForDay(state, day) {
   const result = selectedDay[0].appointments.map(appointment => {
     return state.appointments[appointment];
   })
-
+  return result;
+}
+export function getInterview(state, interview) {
+  if (!interview) {
+    return null;
+  }
+  const result = {
+    ...interview,
+    interviewer: {...state.interviewers[interview.interviewer] }
+  }
   return result;
 } 
