@@ -1,4 +1,5 @@
 # Interview Scheduler
+A modern client application using the React view library that allows users to book and cancel interviews.
 
 ## Setup
 
@@ -21,3 +22,11 @@ npm test
 ```sh
 npm run storybook
 ```
+
+## Dependencies
+1. axios
+2. classnames
+3. normalize.css
+4. react
+5. react-dom
+6. react-scripts
