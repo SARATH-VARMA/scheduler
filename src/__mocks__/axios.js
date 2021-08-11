@@ -1,3 +1,4 @@
+// Data that fakes server
 const fixtures = {
   days: [
     {

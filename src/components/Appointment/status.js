@@ -1,5 +1,5 @@
 import React from "react";
-
+// Returns the status view of appointment
 export default function Status(props) {
   return (
     <main className="appointment__card appointment__card--status">

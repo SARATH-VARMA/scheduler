@@ -1,5 +1,5 @@
 import React from "react";
-
+// Returns header view of appointment
 export default function Header(props) {
   return (
     <header className="appointment__time">

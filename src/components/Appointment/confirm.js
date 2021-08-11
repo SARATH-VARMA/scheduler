@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Button";
-
+// Returns Confirm view
 export default function Confirm(props) {
   return (
     <main className="appointment__card appointment__card--confirm">
