@@ -1,6 +1,10 @@
 # Interview Scheduler
 A modern client application using the React view library that allows users to book and cancel interviews.
 
+# Screenshots
+!["Form for adding or editing appointments"](https://github.com/SARATH-VARMA/scheduler/blob/master/docs/appointment-form.png?raw=true)
+!["Confirmation for cancellation"](https://github.com/SARATH-VARMA/scheduler/blob/master/docs/cancel-confirmation.png?raw=true)
+
 ## Setup
 
 Install dependencies with `npm install`.
