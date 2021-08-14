@@ -40,7 +40,7 @@ export default function useApplicationData() {
     }
 
     return axios
-   .put(`http://localhost:8001/api/appointments/${id}`, appointment)
+   .put(`/api/appointments/${id}`, appointment)
    .then(() => {
 
     const spotCount = edit ? selectedDay[0].spots : selectedDay[0].spots - 1;
@@ -77,7 +77,7 @@ export default function useApplicationData() {
     })
 
     return axios
-    .delete(`http://localhost:8001/api/appointments/${id}`)
+    .delete(`/api/appointments/${id}`)
     .then(() => {     
       const spotCount = selectedDay[0].spots + 1;
       const updatedDays = state.days.map(day => {
